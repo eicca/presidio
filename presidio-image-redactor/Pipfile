@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-flask = ">=1.1.2"
+flask = "==2.2.5"
 pytesseract = ">=0.3.7"
 presidio-analyzer = ">=2.2.0"
 pillow = ">=9.0"
@@ -16,6 +16,6 @@ typing-extensions = "*"
 [dev-packages]
 pytest = "*"
 pytest-mock = "*"
-flake8 = { version = ">=3.9.2" }
+flake8 = "==5.0.4"
 pep8-naming = "*"
 flake8-docstrings = "*"

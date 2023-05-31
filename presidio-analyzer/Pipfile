@@ -7,14 +7,14 @@ name = "pypi"
 spacy = ">=3.4.4"
 regex = "*"
 tldextract = "*"
-flask = ">=1.1"
+flask = "==2.2.5"
 pyyaml = "*"
 phonenumbers = ">=8.12"
 typing-extensions = "*"
 
 [dev-packages]
 pytest = "*"
-flake8= {version = ">=3.7.9"}
+flake8 = "==5.0.4"
 pep8-naming = "*"
 flake8-docstrings = "*"
 pre_commit = "*"
