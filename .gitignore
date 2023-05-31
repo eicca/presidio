@@ -132,6 +132,7 @@ vendor/
 #pycharm
 .idea/*
 .idea
+*.iml
 
 #mkdocs
 /mkdocs
